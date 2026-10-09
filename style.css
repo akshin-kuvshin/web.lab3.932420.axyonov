@@ -231,6 +231,37 @@ section h2 {
     border-radius: inherit;
 }
 
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 columns for desktop and tablets by default */
+    gap: 20px;
+}
+
+.stat-card {
+    min-width: 0;
+    padding: 24px 16px;
+    text-align: center;
+    background: #f8eadb;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+.stat-card h3 {
+    margin-bottom: 8px;
+}
+
+.stat-card p {
+    text-align: center;
+}
+
+.stat-value {
+    margin: 0;
+    color: var(--color-accent-dark);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 form {
     max-width: 620px;
     margin: 0 auto;
