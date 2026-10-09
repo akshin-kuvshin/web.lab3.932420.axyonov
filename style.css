@@ -185,7 +185,7 @@ section h2 {
 
 .skill-card {
     display: flex;
-    flex: 1 1 calc(25% - 20px); /* 4 columns for desktop by default */
+    flex: 1 1 calc(25% - 20px); /* 4 cards in a row for desktop by default */
     flex-direction: column; /* content in cards is located from up to down */
     min-width: 0;
     padding: 20px;
@@ -342,7 +342,7 @@ footer p {
     }
 
     .skill-card {
-        flex-basis: calc(50% - 20px); /* 2 columns for tablets */
+        flex-basis: calc(50% - 20px); /* 2 cards in a row for tablets */
     }
 }
 
@@ -400,7 +400,7 @@ footer p {
     }
 
     .skill-card {
-        flex-basis: 100%; /* 1 column for mobiles */
+        flex-basis: 100%; /* 1 card in a row for mobiles */
     }
 
     .stats-grid {
