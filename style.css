@@ -72,7 +72,7 @@ section {
     box-shadow: 0 2px 8px rgba(59, 36, 22, 0.18);
 }
 
-.site-nav ol {
+.site-nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -356,7 +356,7 @@ footer p {
         padding: 24px 16px;
     }
 
-    .site-nav ol {
+    .site-nav ul {
         justify-content: stretch;
     }
 
